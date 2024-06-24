@@ -1,0 +1,10 @@
+[
+    {"name" : "Salary" , "type": "INCOME"},
+    {"name" : "Business", "type": "INCOME"},
+    {"name" : "Loan", "type": "INCOME"},
+    {"name" : "Rent", "type": "EXPENSE"},
+    {"name" : "Tuition", "type": "EXPENSE"},
+    {"name" : "Food", "type": "EXPENSE"},
+    {"name" : "Utilty", "type": "EXPENSE"}
+]
+ 
