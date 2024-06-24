@@ -13,4 +13,4 @@ for ($i = 1; $i < count($arr); $i++) {
     }
 }
 
-echo 'Output: ' . $min;
+echo 'Output:' . $min;
