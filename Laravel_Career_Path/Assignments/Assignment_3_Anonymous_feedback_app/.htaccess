@@ -1,0 +1,4 @@
+RewriteEngine On
+# RewriteBase /LaravelCP/Laravel_Career_Path/Assignments/Assignment_3_Anonymous_feedback_app/
+
+RewriteRule ^feedback/([^/]+)$ feedback.php?id=$1 [L]
