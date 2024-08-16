@@ -1,18 +1,18 @@
 FOR TEST PURPOSE :
 
 TEST CUSTOMER -
--> email : abcds@gmail.com password : 123456789
--> email : qwerty@gmail.com password : 123456789
+* email : abcds@gmail.com password : 123456789
+* email : qwerty@gmail.com password : 123456789
 
 TEST ADMIN -
-->email : admin@bangubank.com password : adminadmin
+*email : admin@bangubank.com password : adminadmin
 
 ADDITIONAL EGDE CASES EXPLORED -
--> Cant withdraw or transfer if insufficient balance
--> Cant transfer to Self.
--> Cannot transfer if receiver email is invalid
--> Cannot insert negative amount
--> Has to provide Full Name while Registering
+* Cant withdraw or transfer if insufficient balance
+* Cant transfer to Self.
+* Cannot transfer if receiver email is invalid
+* Cannot insert negative amount
+* Has to provide Full Name while Registering
 
 ------ ASSIGNMENT INSTRUCTION ------
 --BANGUBANK--
