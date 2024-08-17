@@ -2,6 +2,8 @@
 
 namespace App;
 
+use App\Traits\readJsonFileTrait;
+
 class AccountInfo
 {
 
@@ -93,12 +95,10 @@ class AccountInfo
         return $allCustomersInfo;
     }
 
+    use readJsonFileTrait;
 
     private function allCustomers()
     {
-        if (file_exists($this->filePath) && filesize($this->filePath) > 0) {
-            return json_decode(file_get_contents($this->filePath), true);
-        }
-        return [];
+        return $this->readJsonFileContent($this->filePath);
     }
 }

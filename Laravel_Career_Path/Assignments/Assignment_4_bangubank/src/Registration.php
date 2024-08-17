@@ -2,6 +2,8 @@
 
 namespace App;
 
+use App\Traits\readJsonFileTrait;
+
 
 class Registration
 {
@@ -74,12 +76,11 @@ class Registration
         }
     }
 
+    use readJsonFileTrait;
+
     private function getAllCustomers()
     {
-        if (file_exists($this->filePath) && filesize($this->filePath) > 0) {
-            return json_decode(file_get_contents($this->filePath), true);
-        }
-        return [];
+        return $this->readJsonFileContent($this->filePath);
     }
 
     private function emailExists($email, $customers)

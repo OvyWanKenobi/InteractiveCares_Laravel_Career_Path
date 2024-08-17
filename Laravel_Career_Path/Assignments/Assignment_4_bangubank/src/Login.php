@@ -2,6 +2,8 @@
 
 namespace App;
 
+use App\Traits\readJsonFileTrait;
+
 class Login
 {
 
@@ -64,11 +66,9 @@ class Login
         }
     }
 
+    use readJsonFileTrait;
     private function getAllCustomers()
     {
-        if (file_exists($this->filePath) && filesize($this->filePath) > 0) {
-            return json_decode(file_get_contents($this->filePath), true);
-        }
-        return [];
+        return $this->readJsonFileContent($this->filePath);
     }
 }
