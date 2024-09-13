@@ -1,0 +1,24 @@
+[
+    {
+        "date": "Sept 2018 - Dec 2022",
+        "program": "BSc in Computer Science & Engineering",
+        "institute": "American International University, Bangladesh (AIUB)",
+        "address": "Kuratoli, Dhaka",
+        "summary": "I moved to Dhaka to pursue a Bachelor of Science in Computer Science & Engineering at the American International University, Bangladesh (AIUB), majoring in Software Engineering. I graduated with a CGPA of 3.6. Although, where all my peers were focused on earning high CGPA, my main focus was on mastering relevant skills rather than pursuing high grades in irrelevant subjects. I often led group projects, and my creativity and commitment to delivering exceptional results were recognized by faculty, who praised me for going above and beyond."
+    },
+    {
+        "date": "July 2024 - Present",
+        "program": "Laravel Career Path Bootcamp",
+        "institute": "Interactive Cares",
+        "address": "Online",
+        "summary": "I enrolled in the Laravel Career Path Bootcamp by Interactive Cares to further master my skills in Laravel. Having learned Laravel on my own and through university courses, which only covered parts of the stack, I wanted to gain a complete understanding of the framework from this bootcamp. The course is taught by Ahmed Shamim Hasan Shaon and Al Nahian, both core contributors to Laravel’s open-source ecosystem. Their teaching style goes beyond the basics, diving deep into concepts and helping us truly grasp the underlying principles. My primary focus in this bootcamp has been on the projects and learning the best practices for accurately implementing features."
+    },
+    {
+        "date": "July 2024 - Present",
+        "program": "Full Stack Web Development (Python+Django+JS)",
+        "institute": "BOHUBRIHI",
+        "address": "Online",
+        "summary": "I enrolled in BOHUBRIHI’s Full Stack Web Development course (Python, Django, JavaScript) to broaden my skills beyond only one full stack, leveraging my existing experience with Python and JavaScript. The course offers comprehensive modules on Python, Django for backend, and React with Redux for frontend, as well as React Native for mobile development. Additionally, it covers essential tools like GitHub, AWS, and Docker for deployment, giving me a complete understanding of developing, scaling, and deploying applications. Although the course does not provide the same level of mentorship and live conceptual classes found in bootcamps, the extensive recorded content and rich practical hands-on projects offer a thorough and effective learning experience."
+    },
+    {"date":"2014 - 2017","program":"O-Levels & A-Levels","institute":"Mastermind International School","address":"Panchlaish, Chittagong","summary":"I am grateful to my father for providing me the opportunity to study at an English medium institution known for offering a refined culture and a better learning environment. During my time there, I sat for both my O-Levels and A-Levels. Although now I feel my results could have been better, and I wish I had been more serious back then, as it could have opened up even greater opportunities for me. But I am still thankful, this school gave me lifelong close friends, and our friendship has remained strong from those school days until now, even being miles apart from each other."}
+]

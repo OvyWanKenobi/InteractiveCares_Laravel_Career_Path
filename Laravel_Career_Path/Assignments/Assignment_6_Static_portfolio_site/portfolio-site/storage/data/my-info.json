@@ -1,0 +1,20 @@
+{
+    "fullName": "Ashiqur Rahman",
+    "firstName":"Ashiqur",
+    "lastName":"Rahman",
+    "alias":"OvyWanKenobi",
+    "professions": ["Software Engineer","Full-Stack Web Developer","ML Enthusiat","Researcher","Learner"],
+    "intro": "",
+    "email": "ashiqur.ovy@gmail.com",
+    "whatsapp": "+880-177-939393-2",
+    "address": "Chittagong, Bangladesh",
+    "socials": {"linkedin":"https://www.linkedin.com/in/ashiqurrahmanovy/","facebook":"https://www.facebook.com/ashiqurrahmanovy/", "github":"https://github.com/OvyWanKenobi", "twitter":""},
+    "myStory": "",
+    "resumeLocation":"",
+    "stats": {
+        "projectCompleted": "10",
+        "stackExplored": "2",
+        "techsLearned": "20",
+        "yearExperience": "1.5"
+    }
+}

@@ -1,0 +1,158 @@
+@media (max-width: 991px) {
+    .brand-logo {
+        text-align: center;
+    }
+}
+.has-bg-color {
+    position: relative;
+    padding: 70px 0;
+    overflow-x: hidden;
+}
+.has-bg-color::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-color: #f1eeeec2;
+    width: 60%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    z-index: -3;
+}
+
+@media (max-width: 575px) {
+    .has-bg-color {
+        text-align: center;
+        padding: 0px 0;
+    }
+    .has-bg-color::after {
+        display: none;
+    }
+    .has-bg-color h2,
+    .has-bg-color .h2 {
+        padding-bottom: 30px;
+    }
+}
+@media (max-width: 767px) {
+    .has-bg-color {
+        text-align: center;
+        padding: 0px 0;
+    }
+    .has-bg-color::after {
+        display: none;
+    }
+    .has-bg-color h2,
+    .has-bg-color .h2 {
+        padding-bottom: 30px;
+    }
+}
+@media (max-width: 991px) {
+    .has-bg-color {
+        padding: 20px 0;
+    }
+    .has-bg-color p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+
+.services {
+    position: relative;
+    overflow-x: hidden;
+}
+.services .card-item:nth-child(n + 1) .card-icon i {
+    color: #0062ff;
+}
+.services .card-item:nth-child(n + 2) .card-icon i {
+    color: #8d00f9a3;
+}
+.services .card-item:nth-child(n + 3) .card-icon i {
+    color: #ff6f6f;
+}
+.services .card-item:nth-child(n + 4) .card-icon i {
+    color: #00fff2;
+}
+.services .card-item:nth-child(n + 5) .card-icon i {
+    color: #09af32;
+}
+.services .card-item:nth-child(n + 6) .card-icon i {
+    color: #d1e000;
+}
+
+.services .card {
+    transition: 0.6s;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.services .card-item{
+    display: flex;
+}
+.services .card:hover {
+    transform: scale(0.97);
+}
+.services .card .card-icon i {
+    font-size: 50px;
+}
+.services .card .card-body .card-title {
+    margin-bottom: 20px;
+}
+.services .card .card-body .card-link {
+    font-size: 16px;
+    line-height: 15px;
+}
+.services .card .card-body .card-text {
+    font-size: 14px;
+    text-align: center;
+}
+
+@media (max-width: 575px) {
+    .services {
+        padding-bottom: 0px;
+    }
+    .services::after {
+        display: none;
+    }
+}
+@media (max-width: 767px) {
+    .services {
+        padding-bottom: 0px;
+    }
+    .services::after {
+        display: none;
+    }
+}
+@media (max-width: 991px) {
+    .services {
+        padding-bottom: 0px;
+    }
+}
+
+.section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+@media (max-width: 575px) {
+    .section {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
+
+.section-title strong {
+    position: relative;
+}
+.section-title strong svg {
+    position: absolute;
+    right: 0;
+    bottom: -20px;
+    max-width: 100%;
+}
+
+.navbar-brand i {
+    color: #ff4127;
+    margin-right: 10px;
+    font-size: 30px;
+}

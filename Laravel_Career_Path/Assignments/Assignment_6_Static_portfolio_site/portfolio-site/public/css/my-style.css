@@ -1,0 +1,333 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playball&display=swap");
+.skills-section {
+    padding: 40px 0;
+}
+
+.skills-section h2 {
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.skills-section p {
+    font-size: 18px;
+}
+
+.skill-card {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.skill-card img {
+    max-width: 40px !important;
+    margin-bottom: 15px;
+}
+
+.skill-card .title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.skill-card .summary {
+    font-size: 15px;
+    color: #6c757d;
+}
+
+.skill-card .level {
+    font-size: 14px;
+    color: #e39624;
+    margin-bottom: 0px;
+}
+
+.about-me a i {
+    font-size: 25px;
+    color: #ff4127;
+}
+
+.about-me a i:hover {
+    color: #ffc200;
+}
+
+.contact-info {
+    background: var(--white-color);
+    border-top-right-radius: var(--border-radius-small);
+    border-bottom-right-radius: var(--border-radius-small);
+    padding: 30px;
+    height: 100%;
+}
+
+.contact-info-border-start {
+    border-right: 1px solid var(--border-color);
+    border-radius: var(--border-radius-small) 0 0 var(--border-radius-small);
+}
+
+/*---------------------------------------
+  SOCIAL ICON               
+-----------------------------------------*/
+.social-icon {
+    margin: 0;
+    padding: 0;
+}
+
+.social-icon-item {
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.social-icon-link {
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-large);
+    font-size: var(--copyright-font-size);
+    color: var(--dark-color);
+    display: inline-block;
+    vertical-align: top;
+    margin: 2px 2px 5px 2px;
+    width: 50px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.social-icon-link:hover {
+    background: var(--secondary-color);
+    border-color: transparent;
+    color: var(--white-color);
+}
+
+.stats .number {
+    font-size: 32px;
+    font-weight: 500;
+    color: #ff4127;
+}
+
+.stats .border-red {
+    border-color: #473e3c2a !important;
+    border-width: 0.2rem !important;
+}
+.stats p {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.experiences .position {
+    color: #ff4127;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.experiences .rounded-4 {
+    border-radius: 1rem;
+}
+
+.experiences .btn {
+    background: #474559;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 15px 23px !important;
+    font-size: 14px;
+    line-height: normal;
+    overflow: hidden;
+    transition: all 0.4s ease;
+}
+
+.experiences .btn:hover {
+    background: #ffc200;
+    color: #ffffff !important;
+}
+
+.experiences .time {
+    font-size: 16px;
+}
+
+.experiences .experience-summary {
+    font-size: 15px;
+    color: #2d2c2e;
+}
+
+.projects {
+    margin: 7vw;
+}
+.projects .project-card {
+    border-radius: 15px;
+    box-shadow: 12px 12px 4px rgba(77, 0, 0, 0.349);
+    overflow: hidden;
+    max-width: 450px;
+    padding: 30px 30px 20px 30px;
+    border: none;
+    background-image: linear-gradient(
+        to bottom right,
+        rgba(124, 124, 124, 0.288),
+        rgb(255, 255, 255)
+    );
+    transition: transform 0.4s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.projects .project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.projects .card-image .image-holder {
+    height: 250px;
+    width: 100%;
+    background-image: url("../images/others/project-bg.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 15px; /* Keep border-radius for rounded corners */
+}
+
+.projects .card-image img {
+    max-height: 90%;
+    max-width: 90%;
+    object-fit: contain; /* Ensures the whole image is shown */
+    display: block;
+}
+
+.projects .card-body {
+    flex-grow: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.projects .badge {
+    background-color: #ff6b81;
+    color: white;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.projects .card-title {
+    font-size: 22px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.projects .catagory {
+    color: #6c757d;
+    font-family: "Poppins", sans-serif;
+    margin: 30px 5px;
+}
+
+.projects .card-short-description {
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.projects .card-title {
+    text-transform: uppercase;
+}
+
+.projects .card-year {
+    font-size: 15px;
+    color: #993c4a;
+    font-weight: 600;
+}
+
+.about-image {
+    position: relative;
+}
+.profile-image-holder {
+    position: absolute;
+    top: -125px;
+    right: 80px;
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+    /* border-top-right-radius: 10%;
+    border-bottom-right-radius: ;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%; */
+    overflow: hidden;
+    box-shadow: 16px 9px 8px rgb(78 42 42 / 33%);
+    z-index: -1;
+    border: 12px solid oldlace;
+}
+.profile-image-holder img {
+    width: 135%;
+    height: 135%;
+    position: absolute;
+    top: -90px;
+    object-fit: cover;
+}
+
+.project-details .owl-carousel .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/others/project-bg.png);
+    background-size: cover;
+}
+
+.project-details .owl-carousel {
+    margin: 50px auto;
+}
+
+.about-me-summary p {
+    font-size: 14.5px;
+    text-align: justify;
+}
+
+.project-details .project-description {
+    font-size: 15px;
+}
+
+.project-details .project-description .bullet-point {
+    /* display: list-item; */
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.navbar-brand.top-bar-mail {
+    margin-right: 0px;
+    margin-left: 1rem;
+    font-size: 0.95rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    color: #474559cc;
+    font-weight: 600;
+}
+
+.navbar-brand.top-bar-mail i {
+    font-size: 20px;
+}
+
+.top-bar-name {
+    font-size: 2.8rem;
+    /* font-family: "Playwrite CU", cursive; */
+    /* font-family: "Dancing Script", cursive; */
+    /* font-family: "Alex Brush", cursive; */
+    font-family: "Playball", cursive;
+    /* color: #ff4127; */
+    color: #474559;
+    /* color: #2d2c2e; */
+    font-weight: 500;
+    /* font-style: italic; */
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+.error-page {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+

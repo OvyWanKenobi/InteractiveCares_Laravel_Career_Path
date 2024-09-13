@@ -1,0 +1,230 @@
+[
+  {
+    "category": "Full-Stack Web Development",
+    "title": "HABRO SMS",
+    "techs": ["Laravel", "PHP", "REST API", "JavaScript", "Bootstrap", "HTML & CSS"],
+    "intro": "A Bulk Messaging Solution for Habro Systems Ltd.",
+    "date": "2023",
+    "images": 
+      "web-dev/habro-sms",
+    "description": "During my tenure at Habro Systems Limited as a Junior Developer, I spearheaded the development of 'HABRO SMS' — a full-fledged bulk messaging platform. This was my first live, commercial project, and I was tasked with building the system from scratch. The goal was to create a scalable and user-friendly solution to meet the company’s need for a robust bulk SMS provider application.<br><br>Collaborating with Nasimul Gani Sir, a consultant for Grameen Communications, who designed the database architecture and provided the necessary API, I developed both the client-side and server-side platforms. I also played a pivotal role in formulating the business logic based on the specific requirements of Habro’s products.<br><br><strong>Key Features :</strong><br><span class='bullet-point'>• User Management: Clients can register, log in, and manage their accounts seamlessly.</span><br><span class='bullet-point'>• Bulk Messaging: Customers can send bulk SMS to large groups by inputing the numbers manually, or uploading contacts by excel life or using saved contact groups.</span><br><span class='bullet-point'>• SMS API Integration: The platform provides clients with API access to integrate SMS functionality into their own websites and applications. A manual is also provided to guide the client or their developers on how to integrate the sms api gateway in their applications. </span><br><span class='bullet-point'>• Message Templates: Customers can save message templates for frequent use, streamlining the SMS process.</span><br><span class='bullet-point'>• Payment Integration: Payments for SMS packages are facilitated through the Bkash payment gateway, integrated via Bkash Merchant Tokenized Checkout API.</span><br><span class='bullet-point'>• Reporting & Analytics: Clients and system admins can view detailed reports on SMS usage, payment history, and account activity over customizable time periods (weekly, monthly, yearly). Reports come with filtering options, and printing options for enhanced usability.</span><br><span class='bullet-point'>• Package Management: Clients can monitor their active SMS packages, track expiration dates, and view remaining balances in real-time.</span><br><span class='bullet-point'>• Admin Panel: The admin panel allows Habro’s system administrators to create and update SMS packages, view client usage, and generate reports.</span><br><span class='bullet-point'>• Edge Case Handling: The system is built to handle critical edge cases, such as ensuring sufficient balances before sending SMS and managing authorizations.</span><br><span class='bullet-point'>• Invoice Generation: When payment is made, an invoice is generated for printing and is also sent to the customer’s email.</span><br><br>The platform is fully responsive and optimized for desktop, tablet, and mobile devices, ensuring a seamless user experience across different screen sizes.<br> You can view the User Manual from the link given for more idea on the features I have implemented and how they work.<br><br> (Currently the Login/Signup might not be working as I checked, their database server apis are not active right now) "
+
+,
+
+    "codeLink": "classified",
+    "siteLink": "https://habrosms.com/",
+    "manualLink": "https://drive.google.com/file/d/1W2V3LpUDDOIzTcEBFVuZV7Wnx1SxmdrS/view?usp=drive_link",
+    "videoLink": ""
+  },
+  {
+    "category": "Full-Stack Web Development",
+    "title": "TRAVEL WHIMS",
+    "techs": ["ASP.NET", "C#", "MySQL", "Bootstrap", "HTML & CSS"],
+    "intro": "A Tour Organiser Solution",
+    "date": "2022",
+    "images": "web-dev/travel-whims",
+     "description": "For my university project, I developed 'TRAVEL WHIMS,' a tour management system using ASP.NET. This project was pivotal for my early experience with Bootstrap and working with a structured database architecture.<br><br>My group chose to create a travel/tour management system where there are three types of users: Travel Guides, Customers, and System Admins. My main role in the project was to handle the development for the Travel Guide interface and the public-facing pages that do not require login.<br><br><strong>Key Features :</strong><br><span class='bullet-point'>• Database Architecture: I designed the database architecture to ensure smooth interaction between guides, customers, and admins.</span><br><span class='bullet-point'>• Travel Guide Signup: Developed a dedicated signup process for travel guides, allowing them to register and manage their accounts.</span><br><span class='bullet-point'>• Public Package Listings: Created public pages where anyone can view current active travel packages, available guides, and package details offered by each guide without needing to log in.</span><br><span class='bullet-point'>• Guide Package Management: Travel guides can log in to view, create, and manage their packages. They can see a summary of each package, including title, dates, locations, and the number of customers enrolled.</span><br><span class='bullet-point'>• Package Details & Enrollments: Clicking on any package provides detailed information about the package (price, instructions, requirements). Guides can also view enrolled customers and access customer details like phone number, name, and address for communication.</span><br><span class='bullet-point'>• Package Creation & Updates: Guides can create new packages, update existing ones, or deactivate/delete them (if no customers are enrolled).</span><br><span class='bullet-point'>• Financial Overview: Implemented a financial page where guides can see how much they have earned from each package and track their total earnings.</span><br><br>While my groupmate worked on the customer-side functionalities and the admin approval system for travel guides, most of the development on the public-facing pages and travel guide features was handled by me. This project helped lay the foundation for my skills in full-stack development, database design, and user experience.",
+    "codeLink": "https://github.com/OvyWanKenobi/projects/tree/main/2.%20ASP.Net-MVC_Bootstrap_Travelwhims-a%20travel%20destination%20marketplace",
+    "siteLink": "",
+    "manualLink": "",
+    "videoLink": "https://drive.google.com/drive/u/1/folders/1WPsmIjc9jYaIkxWvASxrb_rYNw90xGwA"
+  },
+  {
+    "category": "Full-Stack Web Development",
+    "title": "MATS",
+    "techs": ["Laravel", "PHP", "MySQL", "HTML & CSS"],
+    "intro": "An Online Learning Platform",
+    "date": "2022",
+    "images": "web-dev/mats",
+    "description": "As part of a university project in 2022, I developed 'MATS,' an online learning platform using Laravel. This project marked my early experience with Laravel and involved designing both the backend and frontend. Pure css was used, as I had not yet started working with Bootstrap.<br>The platform was designed to serve three types of users: Instructors, Students, and System Admins. My primary role was developing the instructor-side features and structuring the database architecture.<br><br><strong>Key Features :</strong><br><span class='bullet-point'>• Database Architecture: I designed the entire database architecture to support course creation, user management, and content organization.</span><br><span class='bullet-point'>• Instructor Signup & Login: Developed the login and signup functionality for instructors, allowing them to access their accounts and manage their courses.</span><br><span class='bullet-point'>• Course Creation: Instructors can create courses, adding detailed information such as descriptions, requirements, and objectives.</span><br><span class='bullet-point'>• Topic & Material Management: Under each course, instructors can add multiple topics and provide learning materials, such as documents, PDFs, or video tutorials.</span><br><span class='bullet-point'>• Quizzes: Instructors can create quizzes for each topic, enabling students to participate and test their knowledge.</span><br><span class='bullet-point'>• Course Monitoring: Instructors can view student progress within their courses, including the number of students enrolled, topics completed, and overall course completion status.</span><br><span class='bullet-point'>• Ratings: Instructors can see the ratings and feedback provided by students for their courses.</span><br><span class='bullet-point'>• Forum: I implemented a discussion forum where instructors and students can communicate and resolve issues or queries related to the course.</span><br><span class='bullet-point'>• Financial Tracking: Created a finance page where instructors can view their earnings from each course based on student enrollment and completion.</span><br><br>The project gave me hands-on experience with Laravel’s core functionalities and helped me strengthen my skills in backend development.",
+    "codeLink": "https://github.com/OvyWanKenobi/projects/tree/main/1.%20LARAVEL_Backend_MATS-online%20learning%20platform/New%20folder",
+    "siteLink": "",
+    "manualLink": "",
+    "videoLink": "https://drive.google.com/drive/u/1/folders/10qtXC7jeF-tDm8_x6B3FKX_cs8Tj3kvz"
+  },
+  {
+    "category": "Full-Stack Web Development",
+    "title": "myFORUM",
+    "techs": ["PHP", "Bootstrap", "MySQL", "HTML & CSS"],
+    "intro": "A Programmers Association Forum",
+    "date": "2022",
+    "images": "web-dev/my-forum",
+      "description": "I developed 'myFORUM' as a personal project to practice and showcase my PHP and Bootstrap skills. The platform serves as a forum where programmers can post questions, discuss issues, and provide solutions to others' programming challenges.<br><br>The forum is organized into categories based on popular programming languages, such as Python, JavaScript, PHP, React, Laravel, and others. Each category acts as an individual forum thread.<br><br><strong>Key Features:</strong><br><span class='bullet-point'>• Public Viewing: Users can browse through the various programming language categories and see posted questions and discussions, without logging in.</span><br><span class='bullet-point'>• Thread-Based Structure: Each programming language, like Python or JavaScript, has its own thread where users can view questions and their corresponding discussions.</span><br><span class='bullet-point'>• Question Posting: Registered users can log in to post new questions under any thread. Questions include a title and the query description.</span><br><span class='bullet-point'>• Discussions & Answers: Once a question is posted, other users can provide answers or engage in discussions under that question.</span><br><span class='bullet-point'>• User Information: Each question and answer displays the user who submitted it and the time it was posted.</span><br><span class='bullet-point'>• Search & Filters: Users can search the forum for specific keywords, and relevant questions that match the search criteria will be displayed.</span><br><br>This project allowed me to strengthen my backend development skills using PHP and enhance my front-end abilities with Bootstrap, focusing on creating a responsive and user-friendly interface for a collaborative programmer's forum.",
+    "codeLink": "https://github.com/OvyWanKenobi/projects/tree/main/3.%20PHP_BOOTSTRAP_myforum_a%20discussion%20platform",
+    "siteLink": "",
+    "manualLink": "",
+    "videoLink": "https://drive.google.com/drive/u/1/folders/1l1NAOBTvE_UqzKzzMIm1CVDbQwMstrcb"
+  },{
+    "category": "Front-End Development",
+    "title": "HABRO WEBSITE",
+    "techs": ["Laravel", "PHP", "Bootstrap", "HTML & CSS"],
+    "intro": "Portfolio Website for Habro Systems Ltd.",
+    "date": "2023",
+    "images": "front-end/habro-site",
+    "description": "I developed the portfolio website for Habro Systems Ltd., an IT company, using Laravel. While built on Laravel, the site currently functions as a static portfolio to showcase the company's offerings.<br><br>The primary goal was to highlight Habro’s services, products, and technologies, with each category presented in detail across multiple pages.<br><br><strong>Key Features:</strong><br><span class='bullet-point'>• Service Pages: Each service provided by the company has its own dedicated page, explaining the processes and solutions offered.</span><br><span class='bullet-point'>• Product Pages: Products are showcased with individual pages that include descriptions, feature highlights, and product images.</span><br><span class='bullet-point'>• About Us Page: This page outlines the company’s history, vision, and mission, providing insight into its values and goals.</span><br><span class='bullet-point'>• Team Page: A dedicated section for the key members of the company, including the chairman, stakeholders, managing director, and developer teams.</span><br><span class='bullet-point'>• Contact Page: Includes company contact details, a message box for inquiries (integrated with the company’s email), and a Google Maps location of the office.</span><br><span class='bullet-point'>• Gallery Page: Displays images and videos from company events, seminars, and activities, offering a visual insight into company culture.</span><br><br>This project allowed me to apply my skills in front-end development using Laravel and Bootstrap, focusing on responsive design and user-friendly navigation to create a professional web presence for Habro Systems Ltd.",
+    "codeLink": "classified",
+    "siteLink": "http://habrosystems.com/",
+    "manualLink": "",
+    "videoLink": ""
+  },
+  {
+    "category": "Front-End Development",
+    "title": "HABRO DEALERSHIP",
+    "techs": ["BLADE", "HTML & CSS", "Bootstrap"],
+    "intro": "Dealership Portfolio",
+    "date": "2023",
+    "images": "front-end/habro-dealer",
+    "description": "This project was completed as a freelance job for Habro Systems Ltd. after my tenure at the company. The website serves as an extension of their portfolio, showcasing their dealership operations in importing Citgo lubricants and Evinrude boat engines. These were later integrated to the Habro Portfolio Website.<br><br><strong>Key Features:</strong><br><span class='bullet-point'>• Citgo Lubricants Section: Displays a table of products with essential details for each lubricant. Each product page includes downloadable PDFs for the product information and safety data sheets.</span><br><span class='bullet-point'>• Evinrude Engines Section: Showcases all types of boat engines along with their detailed descriptions. Users can view individual specifications for each engine variety, with downloadable spec sheets provided for further details.</span><br><br>This project highlights my front-end development skills using Blade, HTML, and Bootstrap to create a structured and visually appealing dealership portfolio. Some shots are included below to give users a clear visual understanding",
+    "codeLink": "http://habrosystems.com/p_citgo.html",
+    "siteLink": "http://habrosystems.com/p_evinrude.html",
+    "manualLink": "",
+    "videoLink": ""
+  },
+  {
+    "category": "Front-End Development",
+    "title": "FLY BANGLA",
+    "techs": ["BLADE", "Bootstrap", "HTML & CSS"],
+    "intro": "Home view for a Flight Ticketing System",
+    "date": "2022",
+    "images": "front-end/fly-bangla",
+    "description": "After honing my skills in Bootstrap and CSS, I created 'FLY BANGLA,' a single-page home view for a fictional airline company. The goal was to replicate the design standards of professional airline websites, drawing inspiration from real-world examples to ensure a polished and commercial-quality look. This project allowed me to showcase my front-end development abilities while creating a highly functional and visually appealing layout.<br><br>The page includes key elements commonly found on airline websites, such as ticket booking sections, promotional offers, and an embedded commercial video. I focused on intuitive navigation and clean design, ensuring that users could easily access essential information. Each section was carefully arranged to maintain a professional and modern appearance.<br><br>This project was a great opportunity to apply advanced CSS techniques and practice building a seamless, user-friendly interface. It demonstrates my ability to combine aesthetics with usability, emphasizing both visual appeal and smooth functionality across devices."
+
+,
+    "codeLink": "https://github.com/OvyWanKenobi/FlyBangla_php_bootstrap_css_js",
+    "siteLink": "",
+    "manualLink": "",
+    "videoLink": "https://drive.google.com/drive/u/1/folders/1PEumPAIVgPfbo7kJVb6aQbSxvyaBEGeU"
+  },
+  {
+    "category": "Mini Applications",
+    "title": "Feedback App",
+    "techs": ["PHP", "Bootstrap", "HTML & CSS"],
+    "intro": "An Anonymous Feedback App",
+    "date": "2024",
+    "images": "mini-app/feedback-app",
+    "description": "This project is a small-scale anonymous feedback application, created as part of an assignment during a Laravel bootcamp. Although the frontend template was provided, my primary focus was on building the backend using PHP to ensure full functionality. The app allows users to sign up, log in, and receive anonymous feedback via a unique link, similar to platforms like Ask.fm or NGL.com.<br><br>Once a user signs up, they are given a personalized feedback link, which can be shared with others. Anyone with the link can send anonymous feedback, and the user can view all received messages in their dashboard without any information about the sender. <br><br> The project showcases my backend development skills and my ability to integrate essential user authentication and feedback handling features."
+,
+    "codeLink": "",
+    "siteLink": "",
+    "manualLink": "",
+    "videoLink": ""
+  },
+  {
+    "category": "Mini Applications",
+    "title": "Digital MONEY RECEIPT APP",
+    "techs": ["PHP", "MySQL", "HTML & CSS", "Bootstrap"],
+    "intro": "A Digital Money Receipt Manager for Habro Systems Ltd.",
+    "date": "2023",
+    "images": "mini-app/habro-money-receipt",
+    "description": "This digital money receipt application was developed for Habro Systems Ltd. to streamline their receipt management process. Built using PHP and MySQL, the app allows users to log in and fill out a digital money receipt template, including essential details such as dates, receiver information, bill numbers, payment details, and contact information.<br><br>Once submitted, the receipt is saved, and a print option is immediately available. Users can also view past receipts from the records table, with options to reprint at any time. The app features a date filter for searching receipts between two specific dates, as well as a search function that allows users to locate receipts by name, MR number, amount, or other criteria.<br><br>This project demonstrates my ability to create efficient, user-friendly applications for business management, focusing on practical needs such as record-keeping, filtering, and printing functionalities."
+,
+    "codeLink": "https://drive.google.com/file/d/1IiNeEnho4lK7GOffpxJajYSEjFIhgpGV/view",
+    "siteLink": "",
+    "manualLink": "",
+    "videoLink": ""
+  },
+  {
+    "category": "Mini Applications",
+    "title": "Seat Card Generator",
+    "techs": ["PHP", "MySQL", "HTML & CSS"],
+    "intro": "A Seat Card Generator for Education Institute",
+    "date": "2023",
+    "images": "mini-app/seat-card-generator",
+    "description": "The Seat Card Generator is a custom-built application developed for an educational institute as a freelance work. It automate the creation of examination seat cards. Using PHP and MySQL, the app generates seat cards based on student data, streamlining what would otherwise be a manual and time-consuming process.<br><br>The template includes essential details such as class, name, section, student ID, and seat number. Once the student data is uploaded, the app dynamically generates seat cards for all students, which can be reviewed and printed with a single click.<br><br>This project highlights my ability to develop tailored solutions for educational institutions, combining data management with efficient generation and printing of customized documents."
+,
+    "codeLink": "",
+    "siteLink": "",
+    "manualLink": "",
+    "videoLink": ""
+  }
+,
+
+ {
+    "category": "Machine Learning & A.I.",
+    "title": "Automated Polyps Detection Model",
+    "techs": ["Python", "Tensorflow", "Numpy", "Matplotlib", "OpenCV"],
+    "intro": "A ML-Computer Vision Project Which Detects Malignant Tumour on Colonoscopy",
+    "date": "2023",
+    "images": "ml-ai/automated-polyps-detection",
+   "description": "This machine learning project was developed during my undergraduate thesis and represents my first significant foray into machine learning and computer vision. The project focused on developing an automated model to detect malignant polyps in colonoscopy images, marking a crucial learning experience in neural networks, model training, and dataset processing.<br><br>Using the Attention Residual Unet architecture, I trained a model that combined the strengths of attention learning and residual learning to improve polyp detection. The model was trained on a challenge dataset of colonoscopy images and achieved results that slightly outperformed the current state-of-the-art techniques on that dataset.<br><br>Though the model showed promising results, my professor suggested further improvements before pushing for publication, which I plan to work on and refine for future publication."
+,
+    "codeLink": "classified",
+    "siteLink": "",
+    "manualLink": "",
+    "videoLink": ""
+  },
+  {
+    "category": "Machine Learning & A.I.",
+    "title": "Drowsy Driver Detection",
+    "techs": ["Python", "Tensorflow", "Numpy", "Matplotlib", "OpenCV"],
+    "intro": "A ML-Computer Vision Model Detects Sleepy Drivers",
+    "date": "2022",
+    "images": "ml-ai/drowsy-driver-detection",
+    "description": "The Drowsy Driver Detection project was an assignment completed during my undergraduate studies, marking my introduction to machine learning and computer vision. The project aimed to develop a model that detects drowsy or sleepy drivers by analyzing dashcam footage and identifying if a driver’s eyes remain closed for more than a set limit, such as 5 seconds. If the driver is detected as drowsy, the system triggers an alarm to alert them.<br><br>Using a small online dataset due to hardware limitations, I implemented transfer learning to train the model. While the results were promising, with the model accurately detecting drowsy drivers to some extent, performance could be improved with access to a larger dataset and more powerful hardware. The system faced challenges with false positives, especially in scenarios with eye coverings, glasses, or low lighting conditions. <br><br> This project sparked my interest in machine learning and motivated me to further explore and refine these technologies."
+,
+    "codeLink": "https://github.com/OvyWanKenobi/Driver-Drowsiness-Detection-CVPR-Project-GroupF-",
+    "siteLink": "",
+    "manualLink": "",
+    "videoLink": ""
+  },
+  
+  {
+    "category": "Games",
+    "title": "Squid Game",
+    "techs": ["C++", "Glut", "OpenGL"],
+    "intro": "A Game Based on the Famous Korean Series of the Same Name",
+    "date": "2021",
+    "images": "games/squid-games",
+   "description": "The 'Squid Game' project is a computer graphics assignment I completed during my undergraduate studies, inspired by the popular Korean TV series of the same name. This project stood out for its creativity and technical complexity, far surpassing typical 2D animations and games usually submitted for the course.<br><br>Developed using C++, GLut, and OpenGL, the project features a 3D rendition of the famous 'Red-Light, Green-Light' game. I utilized object-oriented programming principles to create and animate game objects, incorporating complex game logic and visual details. <br><br> The dedication and innovation demonstrated in this project were noted by my faculty, who remarked they had never seen such a level of commitment in this course before, resulting in a perfect 100 score. The only perfect 100 I got in a course in undergrad"
+,
+    "codeLink": "https://github.com/OvyWanKenobi/projects/tree/main/3.%20Squid%20Game__C%2B%2B_OOP_ComputerGraphics",
+    "siteLink": "",
+    "manualLink": "",
+    "videoLink": "https://drive.google.com/drive/u/1/folders/1swWhjD7OC2vIIXLEHmJyl3SzIXhwztJ4"
+  },
+  {
+    "category": "Games",
+    "title": "Dice Game",
+    "techs": ["JavaScript", "HTML & CSS"],
+    "intro": "A Two-Player Dice Mini Game",
+    "date": "2024",
+    "images": "games/dice-game",
+   "description": "The 'Dice Game' is a two-player mini game developed as part of an online JavaScript course, focusing on DOM manipulation. I designed using html & css only, using a image as reference. The game allows players to roll a dice, with the goal of reaching a score of 100. The logic of the game is handled by script by me. <br><br>In the game, each roll adds to the player's current score unless a roll of 1 is achieved, which resets the current score and passes the dice to the other player. Players can choose to 'Hold' their current score, which then gets added to their overall score, and the turn moves to the opponent. The first player to accumulate a total score of 100 wins. <br><br> This project served as practical experience in JavaScript and DOM interaction, showcasing my ability to create interactive web applications."
+,
+    "codeLink": "https://github.com/OvyWanKenobi/learning_javascript/tree/main/07_DOM%20and%20Event%20Fundamental/Project_3_Pig_games",
+    "siteLink": "",
+    "manualLink": "",
+    "videoLink": ""
+  },
+  {
+    "category": "Games",
+    "title": "Guess the Number",
+    "techs": ["JavaScript", "HTML & CSS"],
+    "intro": "A Number Guessing Mini Game",
+    "date": "2024",
+    "images": "games/guess-number",
+    "description": "The 'Guess the Number' game is a number guessing mini-game created as part of a comprehensive JavaScript course, focusing on DOM manipulation. Designed using HTML and CSS based on an image reference, the game challenges players to guess a randomly generated number.<br><br>The game logic, implemented in JavaScript, provides feedback based on the player's guesses. If the guess is too low or too high, the status message updates accordingly. Correct guesses result in a win. Players start with a score of 20, with 1 point deducted for each incorrect guess. The game also features a high score tracker that records the highest score achieved during the session, persisting until the browser tab is closed or refreshed. <br><br>This project demonstrates my ability to integrate JavaScript with HTML and CSS to create interactive web-based games."
+,
+    "codeLink": "https://github.com/OvyWanKenobi/learning_javascript/tree/main/07_DOM%20and%20Event%20Fundamental/Project_1_DOM%20and%20Event",
+    "siteLink": "",
+    "manualLink": "",
+    "videoLink": ""
+  },
+
+ {
+    "category": "Research & Publications",
+    "title": "Research 1",
+    "techs": ["Python", "Tensorflow", "Kaggle", "Numpy", "Matplotlib", "OpenCV"],
+    "intro": "A Running Publication Approach Based on a Previous Project on Polyps Detection on Colonoscopy",
+    "date": "2024",
+    "images": "research/endotect-polyps-challenge",
+    "description": "An Ongoing research project which is an upgrade of the automated polyps detection work I did during my thesis. I experimented with new models, networks, and techniques to improve the results. The updated work has achieved results significantly better than the current state-of-the-art, and I am now confident in preparing it for publication after further trials."
+
+,
+    "codeLink": "classified",
+    "siteLink": "",
+    "manualLink": "",
+    "videoLink": ""
+  }
+  
+]

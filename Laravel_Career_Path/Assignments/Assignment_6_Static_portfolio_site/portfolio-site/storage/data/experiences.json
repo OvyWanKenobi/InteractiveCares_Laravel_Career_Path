@@ -1,0 +1,23 @@
+[
+    {
+        "date": "Jan 2023 - Sept 2023",
+        "position": "Full Stack Developer",
+        "company": "Habro Systems Limited",
+        "address": "Gulshan-1, Dhaka",
+        "summary": "Upon graduation, I began my career as a Junior Web Developer at Habro Systems Limited, a small company based in Gulshan-1, Dhaka. Over my 8-month tenure, I developed two major live projects from scratch, consulted by my supervisor, Nasimul Gani Sir. One is Bulk SMS Provider System, another is the company's portfolio site. These products were recognised for their exceptional user experience, showcasing my ability to deliver high-quality solutions. Although being the best creative mind in a small team, I gained many new knowledges from my valuable experience, marking my first venture into live commercial projects. I also contributed by debugging and enhancing features in other products, particularly improving front-end design. Additionally, I integrated the Bkash payment system into their multiple products that previously relied on manual confirmations, and delivered several small managerial apps tailored to company needs."
+    },
+    {
+        "date": "2024 - Present",
+        "position": "Researcher, Learner, Freelancer",
+        "company": "",
+        "address": "Chittagong",
+        "summary": "After gaining substantial experience at Habro Systems Limited, I chose to return to my comfortable hometown. Before continuing my professional career, I decided to focus on scaling up my skills, learning new tools, and exploring emerging web technologies, so I can score better packages in next journey. To master my skills, I have also joined many career bootcamps online to gain complete understanding of the frameworks. In addition, I have engaged in machine learning research aimed at publication, an essential step for securing a scholarship for my Master’s degree. I have also taken on small freelance projects, primarily for my previous company, applying my expertise to support their ongoing needs."
+    },
+    {
+        "date": "2016 - Present",
+        "position": "Technical & Managerial Support",
+        "company": "Heaven Diagnostics & Eye Hospital",
+        "address": "Agrabad, Chittagong",
+        "summary": "Since 2016, I have been providing technical and managerial support for my father's business. My responsibilities include addressing technical issues related to computers, software, and media, as well as managing the accounts. After returning to Chittagong, I resumed this role, continuing to be a helping hand."
+    }
+]
