@@ -1,10 +1,10 @@
-## MY PORTFOLIO SITE
+# MY PORTFOLIO SITE
 
 All sections in every pages are dynamically loaded from JSON files stored in storage/data, except the big paragraph in my-story section on the home page, which will always be static.
 The mailing feature in contacts is not functioning yet, and also it wasn't in assignment.
 The site is not device responsive yet. I look forward to do that later and publish in a domain.
 
-# HOW TO RUN
+## HOW TO RUN
 * git clone https://github.com/OvyWanKenobi/InteractiveCares_Laravel_Career_Path.git
 * cd InteractiveCares_Laravel_Career_Path/Laravel_Career_Path/Assignments/Assignment_6_Static_portfolio_site/portfolio-site
 * composer install
