@@ -5,7 +5,7 @@ The mailing feature in contacts is not functioning yet, and also it wasn't in as
 The site is not device responsive yet. I look forward to do that later and publish in a domain.
 
 # HOW TO RUN
-* git clone git clone https://github.com/OvyWanKenobi/InteractiveCares_Laravel_Career_Path.git
+* git clone https://github.com/OvyWanKenobi/InteractiveCares_Laravel_Career_Path.git
 * cd InteractiveCares_Laravel_Career_Path/Laravel_Career_Path/Assignments/Assignment_6_Static_portfolio_site/portfolio-site
 * composer install
 * (env is provide as there is no sensitive data there)
