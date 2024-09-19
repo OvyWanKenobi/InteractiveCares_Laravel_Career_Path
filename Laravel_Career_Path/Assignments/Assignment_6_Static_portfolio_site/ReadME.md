@@ -14,9 +14,6 @@ The site is not device responsive yet. I look forward to do that later and publi
 * php artisan serve
 
 
-
-
-
 #ASSIGNMENT INSTRUCTION -
 This week's assignment is to: "Build your static portfolio site using Laravel".
 Set up your development environment and Install a fresh Laravel application.
