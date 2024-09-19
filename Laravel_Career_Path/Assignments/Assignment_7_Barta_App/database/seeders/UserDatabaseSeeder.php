@@ -25,8 +25,8 @@ class UserDatabaseSeeder extends Seeder
         DB::table('users')->insert([
 
             'fullname' => 'Ashiqur Rahman',
-            'lastname' => 'Ashiqur',
-            'firstname' => 'Rahman',
+            'lastname' => 'Rahman',
+            'firstname' => 'Ashiqur',
             'username' => 'ovywankenobi',
             'email' => 'ashiqur.ovy@gmail.com',
 
