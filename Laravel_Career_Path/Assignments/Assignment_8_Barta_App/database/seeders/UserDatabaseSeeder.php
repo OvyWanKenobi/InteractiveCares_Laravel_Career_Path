@@ -29,15 +29,20 @@ class UserDatabaseSeeder extends Seeder
             'firstname' => 'Ashiqur',
             'username' => 'ovywankenobi',
             'email' => 'ashiqur.ovy@gmail.com',
-
-            // 'fullname' => $faker->name,
-            // 'lastname' => $faker->lastName,
-            // 'firstname' => $faker->firstName,
-            // 'username' => $faker->userName,
-            // 'email' => $faker->email,
-
             'password' => Hash::make('123456789'),
             'bio' => 'Hello there , I am a full-stack web developer, a software engineer, a ml enthusiast, a researcher, and most importantly a learner.',
+
+            'created_at' => now(),
+        ]);
+
+        DB::table('users')->insert([
+            'fullname' => 'John Doe',
+            'lastname' => 'Doe',
+            'firstname' => 'John',
+            'username' => 'johndoe123',
+            'email' => 'john.doe@example.com',
+            'password' => Hash::make('123456789'),
+            'bio' => 'I am John Doe, a backend developer and software architect.',
             'created_at' => now(),
         ]);
     }

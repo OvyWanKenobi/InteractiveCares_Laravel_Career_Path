@@ -43,7 +43,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 global $email;
                 return $user['email'] === $email;
             });
-            $user = reset($user);
+            $user = reset($user); //The reset function returns the first element of the array
             // var_dump($user);
             if ($user && password_verify($password, $user['password'])) {
 
