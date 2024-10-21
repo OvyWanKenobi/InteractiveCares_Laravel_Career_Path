@@ -5,6 +5,8 @@
 * Authentication - Check if the post belong to the auth user before edit or delete
 * Singleton Responsity pattern - Added Service pattern for new and old controller logics
 * Resource Route
+* Joining tables in Query Builder
+* Forms Request validation 
 
 USE THE FOLLOWING TO SET UP IN YOUR DEVICE:
 
