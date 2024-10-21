@@ -1,7 +1,7 @@
 
 # BARTA APP -ASSIGNMENT 8
 
-## KEY FEATURES EXPLORED :
+#### KEY FEATURES EXPLORED :
 * Authentication - Check if the post belong to the auth user before edit or delete
 * Singleton Responsity pattern - Added Service pattern for new and old controller logics
 * Resource Route
