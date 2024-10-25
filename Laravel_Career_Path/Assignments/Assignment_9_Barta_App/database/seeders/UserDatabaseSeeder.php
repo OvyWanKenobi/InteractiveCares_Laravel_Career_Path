@@ -24,7 +24,7 @@ class UserDatabaseSeeder extends Seeder
 
         User::factory()
         ->withAvatar()
-            ->has(Post::factory()->count(4))
+            ->has(Post::factory()->count(5))
             ->create([
                 'lastname' => 'Rahman',
                 'firstname' => 'Ashiqur',
@@ -33,9 +33,9 @@ class UserDatabaseSeeder extends Seeder
 
             ]);
 
-        User::factory(2)
+        User::factory(4)
         ->withAvatar()
-            ->has(Post::factory()->count(4)) // Create 4 posts for each user
+            ->has(Post::factory()->count(5)) // Create 4 posts for each user
             ->create();
 
 

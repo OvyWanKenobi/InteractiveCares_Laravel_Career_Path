@@ -25,9 +25,9 @@ class PostController extends Controller
     public function store(PostRequest $request)
     {
 
-        
+
         $validated = $request->validated();
-        
+
 
         $post = $this->postService->storePost($validated, auth()->user()->id);
 
@@ -91,7 +91,7 @@ class PostController extends Controller
 
         $search = $request->query('search');
 
-        $posts = $this->postService->search($search);
+        $posts = $this->postService->search($search)->appends(['search' => $search]);
 
 
         // dd($posts);

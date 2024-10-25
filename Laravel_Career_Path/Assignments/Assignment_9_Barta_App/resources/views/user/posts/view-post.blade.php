@@ -117,8 +117,10 @@
                 <!-- Content -->
                 <div class="py-4 font-normal text-gray-700">
                     <p>{!! nl2br(e($post->content)) !!}</p>
-                    <img src="{{ $post->post_image_file }}" class="min-h-auto max-h-64 rounded-lg object-cover md:max-h-72"
-                        alt="post image" />
+                    @if ($post->post_image_file)
+                        <img src="{{ $post->post_image_file }}"
+                            class="min-h-auto max-h-64 rounded-lg object-cover md:max-h-72" alt="post image" />
+                    @endif
 
                 </div>
 

@@ -257,10 +257,11 @@
                             <div class="py-4 font-normal text-gray-700">
 
                                 <p class="mb-3">{!! nl2br(e($post->content)) !!}</p>
-
-                                <img src="{{ $post->post_image_file }}"
-                                    class="min-h-auto max-h-64  rounded-lg object-cover md:max-h-72"
-                                    alt="post image" />
+                                @if ($post->post_image_file)
+                                    <img src="{{ $post->post_image_file }}"
+                                        class="min-h-auto max-h-64 rounded-lg object-cover md:max-h-72"
+                                        alt="post image" />
+                                @endif
 
                             </div>
                         </a>
@@ -298,6 +299,10 @@
                     </article>
                     <!-- /Barta Card -->
                 @endforeach
+
+                <div class="mt-4">
+                    {{ $postsByUser->links() }}
+                </div>
             @endif
 
 

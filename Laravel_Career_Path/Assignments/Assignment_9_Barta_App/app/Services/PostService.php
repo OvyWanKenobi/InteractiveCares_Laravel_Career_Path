@@ -21,7 +21,7 @@ class PostService
             $posts = Post::with(['user'])
                 ->withCount('comments')
                 ->orderByDesc('created_at')
-                ->get();
+                ->paginate(10);
 
             // dd($posts);
 
@@ -39,7 +39,7 @@ class PostService
             $postsByUser = Post::where('user_id', $user->id)
                 ->withCount('comments')
                 ->orderByDesc('created_at')
-                ->get();
+                ->paginate(15);
 
             $commentsCountByUser = Comment::where('user_id', $user->id)
                 ->count();
@@ -94,7 +94,7 @@ class PostService
 
             return $post;
         } catch (Exception $e) {
-            dd($e);
+            // dd($e);
             return false;
         }
     }
@@ -146,7 +146,7 @@ class PostService
     public function search($search)
     {
         try {
-            $posts = Post::with('User')
+            $posts = Post::with('user')
                 ->withCount('comments')
                 ->when($search, function ($query, $search) {
                     return $query->where('content', 'Like', '%' . $search . '%')
@@ -158,7 +158,7 @@ class PostService
                         });
                 })
                 ->orderByDesc('created_at')
-                ->get();
+                ->paginate(6);
 
 
             return $posts;

@@ -108,7 +108,7 @@
 
 
             @if (request('search'))
-                <p class="text-black-800 text-lg">{{ '(' . count($posts) . ')' }} search results for
+                <p class="text-black-800 text-lg">{{ '(' . $posts->total() . ')' }} search results for
                     '{{ request('search') }}'</p>
             @endif
             @if ($posts->isEmpty())
@@ -210,9 +210,11 @@
                         <a href="{{ route('posts.show', ['post' => $post->id]) }}">
                             <div class="py-4 font-normal text-gray-700">
                                 <p>{!! nl2br(e($post->content)) !!}</p>
-                                <img src="{{ $post->post_image_file }}"
-                                    class="min-h-auto max-h-64 rounded-lg object-cover md:max-h-72" alt="post image" />
-
+                                @if ($post->post_image_file)
+                                    <img src="{{ $post->post_image_file }}"
+                                        class="min-h-auto max-h-64 rounded-lg object-cover md:max-h-72"
+                                        alt="post image" />
+                                @endif
                             </div>
                         </a>
 
@@ -249,6 +251,11 @@
                     </article>
                     <!-- /Barta Card -->
                 @endforeach
+
+
+                <div class="mt-4">
+                    {{ $posts->links() }}
+                </div>
             @endif
 
 

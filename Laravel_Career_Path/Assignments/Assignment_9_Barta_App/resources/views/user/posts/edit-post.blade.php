@@ -64,8 +64,11 @@
                             class="block w-full rounded-lg border-2 border-gray-300 p-2 pt-3 text-gray-900 focus:ring-0 focus:ring-offset-0"
                             name="barta-post" id="barta-post" rows="4">{{ old('barta-post', $post->content) }}</textarea>
 
-                        <img src="{{ $post->post_image_file }}"
-                            class="min-h-auto mt-3 max-h-64 rounded-lg object-cover md:max-h-72" alt="post image" />
+                        @if ($post->post_image_file)
+                            <img src="{{ $post->post_image_file }}"
+                                class="min-h-auto mt-3 max-h-64 rounded-lg object-cover md:max-h-72" alt="post image" />
+                        @endif
+
                     </div>
                 </div>
             </div>

@@ -19,7 +19,7 @@ class CommentDatabaseSeeder extends Seeder
         $posts = Post::all();
 
 
-        Comment::factory(25)
+        Comment::factory(40)
         ->create(function () use ($users, $posts) {
             return [
                 'user_id' => $users->random()->id, 
