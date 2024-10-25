@@ -1,11 +1,18 @@
 
 # BARTA APP -ASSIGNMENT 8
 
-#### KEY FEATURES EXPLORED :
+### KEY FEATURES EXPLORED :
 * Converted all Query Builder to Eloquent ORM
-* Used Factory to seed data to database (with Fake Avatar generate for each user)
-* 
-* 
+* Used Factory to seed data to database
+* Generate Fake ui-Avatar using name initials for each user created in seeding, with saving them in local storage
+* Generate a ui-avatar using name initials for any new user registered, with saving them in local storage
+* Service Pattern (Single responsibility)
+* Add photo with post, with preview before posting . (saves in local storage/ publically unaccessible) 
+* Delete photos from storage when post are deleted
+* Update Profile Picture in edit-profile, with preview before updating. (overwrite the old profile picture in local storage)
+* Seperate Form request for all Forms
+* Edit Authenticated User's Post, comments, profile
+
 
 USE THE FOLLOWING TO SET UP IN YOUR DEVICE:
 
