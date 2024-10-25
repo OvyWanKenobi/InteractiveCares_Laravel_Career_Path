@@ -53,10 +53,10 @@ class UserController extends Controller
 
     public function editProfileSubmit(EditProfileRequest $request)
     {
-      
+
         $validated = $request->validated();
 
-        
+
 
         if (!Hash::check($validated['current-password'], auth()->user()->password)) {
             return redirect()->back()->withErrors(['current-password' => 'Your current password is incorrect.']);
@@ -77,8 +77,10 @@ class UserController extends Controller
         $path = storage_path('app/' . $filePath);
 
         if (!File::exists($path)) {
+
             // abort(404);
-            dd($path);
+            // dd($path);
+            return '';
         }
 
         return response()->file($path);

@@ -260,7 +260,7 @@
 
                                 <img src="{{ $post->post_image_file }}"
                                     class="min-h-auto max-h-64  rounded-lg object-cover md:max-h-72"
-                                    alt="" />
+                                    alt="post image" />
 
                             </div>
                         </a>
