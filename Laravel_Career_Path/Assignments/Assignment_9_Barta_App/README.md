@@ -14,7 +14,7 @@
 * Any table fetched are related to its relations using Eager Loading , (not llazy loading)
 * Seperate Form request for all Forms
 * Edit Authenticated User's Post, comments, profile
-* * Pagination (Pending)
+* Pagination 
   * View Count (Pending)
 
 
