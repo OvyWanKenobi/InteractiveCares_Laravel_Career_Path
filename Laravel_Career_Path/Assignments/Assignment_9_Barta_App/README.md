@@ -8,10 +8,14 @@
 * Generate a ui-avatar using name initials for any new user registered, with saving them in local storage
 * Service Pattern (Single responsibility)
 * Add photo with post, with preview before posting . (saves in local storage/ publically unaccessible) 
-* Delete photos from storage when post are deleted
+* When any post are deleted, its images are also deleted from storage
 * Update Profile Picture in edit-profile, with preview before updating. (overwrite the old profile picture in local storage)
+* Search functionality using Post - Body and User - username, name, email. (not fulltext search)
+* Any table fetched are related to its relations using Eager Loading , (not llazy loading)
 * Seperate Form request for all Forms
 * Edit Authenticated User's Post, comments, profile
+* * Pagination (Pending)
+  * View Count (Pending)
 
 
 USE THE FOLLOWING TO SET UP IN YOUR DEVICE:
