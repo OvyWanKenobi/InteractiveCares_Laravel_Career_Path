@@ -15,7 +15,7 @@
 * Seperate Form request for all Forms
 * Edit Authenticated User's Post, comments, profile
 * Pagination 
-  * View Count (Pending)
+
 
 
 USE THE FOLLOWING TO SET UP IN YOUR DEVICE:
