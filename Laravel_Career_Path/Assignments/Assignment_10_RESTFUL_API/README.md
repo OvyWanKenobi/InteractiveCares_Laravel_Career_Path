@@ -1,7 +1,7 @@
 
-### Assignment 10 RESTFUL API
+## Assignment 10 RESTFUL API
 
-## USE THE FOLLOWING TO SET UP IN YOUR DEVICE:
+### USE THE FOLLOWING TO SET UP IN YOUR DEVICE:
 
 ```bash
 git clone https://github.com/OvyWanKenobi/InteractiveCares_Laravel_Career_Path.git
@@ -35,14 +35,14 @@ php artisan db:seed
 php artisan serve
 ```
 
-## Use the following credentials to log in from any API PLATFORM:
+### Use the following credentials to log in from any API PLATFORM:
 API-endpoint: http://localhost:8000/api/v1/login
 BODY {
 email: ashiqur.ovy@gmail.com
 password: 123456789
 }
 
-## For Registering, 
+### For Registering, 
 API-endpoint: http://localhost:8000/api/v1/register
 BODY {
 name: Ashiqur Rahman
@@ -50,10 +50,10 @@ email: ashiqur.ovy@gmail.com
 password: 123456789
 }
 
-## For Seeing User's All URL (Need Authentication API Token from Login response)
+### For Seeing User's All URL (Need Authentication API Token from Login response)
 API-endpoint: http://localhost:8000/api/v1/my-urls
 
-## For Shortening LOng Url Link (Need Authentication API Token from Login response)
+### For Shortening LOng Url Link (Need Authentication API Token from Login response)
 API-endpoint: http://localhost:8000/api/v1/url-shortener
 BODY {
 url: https://www.researchgate.net/publication/376600597_Polyps_Segmentation_for_AI-assisted_Colonoscopy_Examination/related
