@@ -1,6 +1,9 @@
 
 ## Assignment 10 RESTFUL API
 
+Use http://127.0.0.1:8000/docs/api#/ for scramble api documentation
+
+
 ### USE THE FOLLOWING TO SET UP IN YOUR DEVICE:
 
 ```bash
