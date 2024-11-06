@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Link;
 use App\Models\User;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
@@ -13,11 +14,24 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // User::factory(10)->create();
+        // $this->call([UserSeeder::class]);
+        // $this->call([LinkSeeder::class]);
 
-        User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
-        ]);
+
+        User::factory()->create(
+            [
+                'name' => 'Ashiqur Rahman',
+                'email' => 'ashiqur.ovy@gmail.com',
+            ]
+
+        )->each(function ($user) {
+            $links = Link::factory(5)->create();
+            $user->links()->attach($links->pluck('id')->toArray());
+        });
+
+        User::factory(4)->create()->each(function ($user) {
+            $links = Link::factory(5)->create();
+            $user->links()->attach($links->pluck('id')->toArray());
+        });
     }
 }
